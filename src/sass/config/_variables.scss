@@ -1,0 +1,96 @@
+//- tipografia
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url();
+@import url();
+
+
+//- colores corporeativos
+$first-color  : ;
+$second-color : ;
+$third-color  : ;
+$fourth-color : ;
+
+$color-first  : $first-color;
+$color-second : $second-color;
+$color-third  : $third-color;
+$color-fourth : $fourth-color;
+
+
+//- escala de grises
+$first-gray  : ;
+$second-gray : ;
+$third-gray  : ;
+$fourth-gray : ;
+$fifth-gray  : ;
+
+$gray-first  : $first-gray;
+$gray-second : $second-gray;
+$gray-third  : $third-gray;
+$gray-fourth : $fourth-gray;
+$gray-fifth  : $fifth-gray;
+
+
+//- tonalidades
+$black     : ;
+$white     : ;
+$black-o   : ;
+$white-alt : ;
+
+
+//- fondos
+$first-background  : linear-gradient();
+$second-background : linear-gradient();
+$third-background  : linear-gradient();
+
+$background-first  : $first-background;
+$background-second : $second-background;
+$background-third  : $third-background;
+
+:root{
+    //- tipografias y colores
+    --font-primary : ;
+    --font-alt     : ;
+
+    --font-first-color  : ;
+    --font-second-color : ;
+    --font-third-color  : ;
+    --font-fourth-color : ;
+    --font-fifth-color  : ;
+
+
+    //- paleta de colores
+    //- colores corporeativos
+    --first-color  : ;
+    --second-color : ;
+    --third-color  : ;
+    --fourth-color : ;
+
+    --color-first  : var(--first-color);
+    --color-second : var(--second-color);
+    --color-third  : var(--third-color);
+    --color-fourth : var(--fourth-color);
+
+
+    //- escala de grises
+    --first-gray  : ;
+    --second-gray : ;
+    --third-gray  : ;
+    --fourth-gray : ;
+    --fifth-gray  : ;
+
+    --gray-first  : var(--first-gray);
+    --gray-second : var(--second-gray);
+    --gray-third  : var(--third-gray);
+    --gray-fourth : var(--fourth-gray);
+    --gray-fifth  : var(--fifth-gray);
+
+
+    //- fondos
+    --first-background  : linear-gradient();
+    --second-background : linear-gradient();
+    --third-background  : linear-gradient();
+
+    --background-first  : var(--first-background);
+    --background-second : var(--second-background);
+    --background-third  : var(--third-background);
+}

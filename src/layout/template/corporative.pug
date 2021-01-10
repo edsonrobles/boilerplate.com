@@ -1,0 +1,73 @@
+block meta
+
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="shortcut icon", href="favicon.ico", type="image/x-icon")
+        title=PageTitle
+
+        //- css
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css")
+        //- link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
+        link(rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css")
+        link(rel="stylesheet" href=`css/${StyleSheet}.css`)
+
+        //- js
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+
+        //- optimización SEO
+        //- generico
+        meta(name="author"              content=PageName)
+        meta(name="robots"              content="index, follow")
+        meta(name="keywords"            content=keywords)
+        meta(name="description"         content=description)
+        meta(http-equiv="cache-control" content="no-cache")
+
+        //- fancy
+        meta(property="fancy:name"        content=PageName)
+        meta(property="fancy:image"       content=seo)
+        meta(property="fancy:category"    content=category)
+        meta(property="fancy:description" content=description)
+
+        //- global canonical
+        link(rel="canonical"   href= url)
+        meta(property="og:url" content= url)
+
+        //- facebook
+        meta(property="og:type"        content="website")
+        meta(property="og:image"       content=SeoImg)
+        meta(name="facebook:site"      content=facebook)
+        meta(property="og:locale"      content="es_ES")
+        meta(name="facebook:creator"   content=facebook)
+        meta(property="og:description" content=FBdescription)
+
+        //- twitter
+        meta(name="twitter:card"        content="summary_large_image")
+        meta(name="twitter:site"        content=twitter)
+        meta(name="twitter:image"       content=seoImg)
+        meta(name="twitter:title"       content=pageName)
+        meta(name="twitter:creator"     content=twitter)
+        meta(name="twitter:description" content=TWdescription)
+
+        //- datos de open graph
+        meta(property="og:url"            content=url)
+        meta(property="og:type"           content="article")
+        meta(property="og:title"          content=PageName)
+        meta(property="og:image"          content=SeoImg)
+        meta(property="og:site_name"      content=PageName)
+        meta(property="og:description"    content=description)
+        meta(property="og:price:amount"   content="")
+        meta(property="og:price:currency" content="C$ Cordoba, U$ Dolar")
+
+
+    body
+        block content
+        
+        script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js")
+        block script

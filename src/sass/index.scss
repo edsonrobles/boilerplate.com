@@ -1,0 +1,10 @@
+// @import 'config/variables';
+@import 'config/function';
+@import 'config/breakpoints';
+@import 'config/base';
+
+.container {
+    gap                   : 8px;
+    display               : grid;
+    grid-template-columns : repeat(4, 1fr);
+}
