@@ -1,32 +1,32 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--font-primary);
+    margin      : 0;
+    padding     : 0;
+    box-sizing  : border-box;
+    font-family : var(--font-primary);
 }
 
 ul, ol, li {
-    list-style: none;
+    list-style : none;
 }
 
 a {
-    color: inherit;
-    background: transparent;
-    text-decoration: none;
+    color           : inherit;
+    background      : transparent;
+    text-decoration : none;
 }
 
 img {
-    width: 100%;
+    width : 100%;
 }
 
 .navbar {
-    margin-bottom: 24px;
+    margin-bottom : 24px;
 }
 
 .container {
-    gap: 4px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    gap                   : 4px;
+    display               : grid;
+    grid-template-columns : repeat(4, 1fr);
 }
