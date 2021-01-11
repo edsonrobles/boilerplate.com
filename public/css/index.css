@@ -22,6 +22,7 @@ img {
 }
 
 .text-center {
+    margin: 8px 0;
     font-size: 24px;
     font-weight: 600;
     grid-column: span 4;
