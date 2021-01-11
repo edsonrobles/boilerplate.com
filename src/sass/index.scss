@@ -3,8 +3,10 @@
 @import 'config/breakpoints';
 @import 'config/base';
 
-.navbar {
-    margin-bottom : 24px;
+.text-center {
+    font-size   : 24px;
+    font-weight : 600;
+    grid-column: span 4;
 }
 
 .container {
