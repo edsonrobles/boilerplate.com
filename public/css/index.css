@@ -21,6 +21,12 @@ img {
     width: 100%;
 }
 
+.text-center {
+    font-size: 24px;
+    font-weight: 600;
+    grid-column: span 4;
+}
+
 .container {
     gap: 8px;
     display: grid;
