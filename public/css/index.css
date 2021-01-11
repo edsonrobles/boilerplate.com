@@ -22,7 +22,7 @@ img {
 }
 
 .container {
-    gap: 8px;
+    gap: 4px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
