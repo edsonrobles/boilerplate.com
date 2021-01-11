@@ -1,4 +1,4 @@
-# Boilerplate Pug, Sass y Prepros
+# Boilerplate Pug, Sass, Prepros y CDN
 
 Creo que una de las mayores dificultades para un creativo es enfrentarse a una hoja en blanco, especialmente cuando tiene la claridad sobre el producto que desea desarrollar. Este momento es crucial para el desarrollo del proyecto, pues los primeros trazos marcarán una línea de trabajo.
 
