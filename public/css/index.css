@@ -21,6 +21,10 @@ img {
     width: 100%;
 }
 
+.navbar {
+    margin-bottom: 24px;
+}
+
 .container {
     gap: 4px;
     display: grid;

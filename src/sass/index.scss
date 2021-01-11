@@ -3,6 +3,10 @@
 @import 'config/breakpoints';
 @import 'config/base';
 
+.navbar {
+    margin-bottom : 24px;
+}
+
 .container {
     gap                   : 4px;
     display               : grid;
