@@ -1,0 +1,16 @@
+//- Ruta de imagenes
+@function image ($img) {
+    $path: '../img/corporative/';
+    @return url($path + $img);
+}
+
+//- Medidas en «em»
+@function em ($px, $base: 16px) {
+    @return $px / $base * 1em;
+}
+
+
+//- Medidas en porcentaje
+@function columns ($columns, $total-columns) {
+    @return percentage($columns / $total-columns);
+}

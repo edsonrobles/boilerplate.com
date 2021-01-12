@@ -1,0 +1,17 @@
+// @import 'config/variables';
+@import 'config/function';
+@import 'config/breakpoints';
+@import 'config/base';
+
+.text-center {
+    margin      : 8px 0;
+    font-size   : 24px;
+    font-weight : 600;
+    grid-column : span 4;
+}
+
+.container {
+    gap                   : 4px;
+    display               : grid;
+    grid-template-columns : repeat(4, 1fr);
+}

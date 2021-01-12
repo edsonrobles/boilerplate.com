@@ -1,0 +1,26 @@
+@mixin mq ($breakpoint) {
+    @media screen and (max-width:  $breakpoint) {
+        @content;
+    }
+}
+
+
+$breakpoints: (
+    small: em(320px),
+    medium: em(640px),
+    large: em(1024px),
+    extra-large: em(1440px)
+);
+
+
+@mixin mediaquery ($breakpoint) {
+    @if map-has-key($map: $breakpoints, $key: $breakpoint) {
+        @media screen and (max-width: map-get($map: $breakpoints, $key: $breakpoint)) {
+            @content;
+        }
+    } @else if type-of($value: $breakpoint) == number and unit ($breakpoint) == 'px' {
+        @media screen and (max-width: $breakpoint) {
+            @content
+        }
+    }
+}
